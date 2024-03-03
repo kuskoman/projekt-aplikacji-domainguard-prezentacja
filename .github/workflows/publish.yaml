@@ -1,0 +1,30 @@
+name: Deploy Slidev Presentation to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Dependencies
+        run: yarn --frozen-lockfile
+
+      - name: Build Slidev Presentation
+        run: yarn build
+
+      - name: Publish Presentation Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: presentation
+          path: dist
