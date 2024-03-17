@@ -14,6 +14,8 @@ monaco: true
 
 ## Aplikacja do monitorowania ważności domen i certyfikatów SSL
 
+Autor: Jakub Surdej
+
 <style>
 h1 {
   color: #4EC5D4;
