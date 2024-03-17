@@ -68,7 +68,17 @@ transition: fade-in
 
 # Badanie Rynku
 
-Istniejące aplikacje i ich krótki opis.
+Istniejące aplikacje.
+
+<div class="text-left">
+<ul>
+  <li><a href="https://sematext.com/" target="_blank" rel="noopener">Sematext Synthetics</a></li>
+  <li><a href="https://www.solarwinds.com/" target="_blank" rel="noopener">SolarWinds</a></li>
+  <li><a href="https://www.datadoghq.com/" target="_blank" rel="noopener">Datadog</a></li>
+  <li><a href="https://www.nagios.com/" target="_blank" rel="noopener">Nagios</a></li>
+  <li><a href="https://ohdear.app/" target="_blank" rel="noopener">Oh Dear</a></li>
+</ul>
+</div>
 
 ---
 class: px-10
@@ -93,11 +103,33 @@ class: px-10
 transition: slide-left
 ---
 
+# Analiza SWOT konkurencji
+
+<p>
+  <b>Mocne Strony:</b> Wiele z tych narzędzi oferuje kompleksowe monitorowanie z różnorodnymi opcjami powiadomień.
+</p>
+<p>
+  <b>Słabe Strony:</b> Brak automatycznego wyszukiwania subdomen lub ograniczone opcje powiadomień w niektórych narzędziach.
+</p>
+<p>
+  <b>Szanse:</b> Wprowadzenie zaawansowanego wyszukiwania subdomen i rozszerzonych opcji powiadomień może wyróżnić nasz projekt.
+</p>
+<p>
+  <b>Zagrożenia:</b> Silna konkurencja i konieczność stałego aktualizowania funkcji w odpowiedzi na zmieniające się zagrożenia bezpieczeństwa.
+</p>
+
+---
+class: px-10
+transition: slide-left
+---
+
 # Unikalna Wartość
 
 - Zaawansowane wyszukiwanie subdomen
 - Elastyczne opcje powiadomień
 - Łatwa integracja z infrastrukturą jako kod (IaC)
+- Udostępnianie metryk zgodnych z OpenMetrics oraz Prometheus
+- Otwartoźródłowy kod
 
 ---
 class: px-10
