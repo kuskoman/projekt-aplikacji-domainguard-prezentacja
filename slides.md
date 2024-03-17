@@ -132,6 +132,7 @@ transition: slide-left
 - Łatwa integracja z infrastrukturą jako kod (IaC)
 - Udostępnianie metryk zgodnych z OpenMetrics oraz Prometheus
 - Otwartoźródłowy kod
+- Łatwa konfiguracja i obsługa
 
 ---
 class: px-10
